@@ -1,0 +1,79 @@
+/* Navbar and Header Styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand h1 {
+    margin: 0;
+}
+
+/* Courses Offered Styles */
+#coursesOffered .course-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#coursesOffered .course {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+#coursesOffered .course img {
+    width: 100%;
+    height: auto;
+}
+
+/* Hiring Partners & Mentors Styles */
+#partnersMentors .partner-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#partnersMentors .partner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Student Success Stories Styles */
+#studentStories .testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#studentStories .testimonial img {
+    width: 100%;
+    height: auto;
+}
+
+/* Accreditation & Learning Platform Styles */
+#accreditation .accreditation-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#accreditation .accreditation {
+    flex: 1;
+    text-align: center;
+}
+
+#accreditation .accreditation i {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+}
